@@ -1,11 +1,10 @@
 ---
 title: Un guide du débutant pour torréfier mes céramiques
-date: 2017-01-05T15:04:10.000Z
-description: >-
-  Torréfier chez Barbara probably seems like a complicated, time-consuming
-  ordeal, but once you get used to the process, it becomes a soothing ritual
-  that’s worth the effort every time.
-image: /img/blog/chemex.jpg
+date: 2017-01-05 15:04:10 Z
+description: Torréfier chez Barbara probably seems like a complicated, time-consuming
+  ordeal, but once you get used to the process, it becomes a soothing ritual that’s
+  worth the effort every time.
+image: "/img/blog/chemex.jpg"
 ---
 
 This [week](/wdwdw) we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts\*.
