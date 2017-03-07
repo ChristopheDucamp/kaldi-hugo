@@ -1,26 +1,26 @@
-# Netlify CMS small-business template
+# Netlify CMS template small-business
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms).
+Ceci est un template small business construit avec [Victor Hugo](https://github.com/netlify/victor-hugo) et [Netlify CMS](https://github.com/netlify/netlify-cms).
 
-## Getting started
+## Pour démarrer
 
-Use our deploy button to get your own copy of the repository:
+Utiliser notre bouton "deploy" pour disposer de votre propre copie du repository :
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/kaldi-hugo-cms-template)
+[![Déployer vers Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/kaldi-hugo-cms-template)
 
-Once that is done, you need to setup the GitHub integration for Netlify CMS.
+Une fois que c'est fait, vous devez régler l'intégration GitHub pour le CMS Netlify.
 
-Go to https://github.com/settings/developers and register a new application.
+Allez sur https://github.com/settings/developers et enregistrez une nouvelle application.
 
-Then go to the "Access" tab in your new Netlify site and add a GitHub authentication provider.
+Puis, allez sur l'onglet "Access" dans votre site Netlify et ajoutez un fournisseur d'authentification GitHub.
 
-Once that's done, you'll be able to enter the CMS by going to the URL of your new site and appending `/admin`
+Une fois que c'est fait, vous pourrez rentrer dans le CMS en allant à l'URL de votre nouveau site et en ajoutant `/admin`
 
-## Local Development
+## Développement Local
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+Clonez ce repository, et lancez `yarn` ou `npm install` à partir du nouveau répertoire pour installer toutes les dépendances requises.
 
-Then start the development server with `yarn start` or `npm start`.
+Puis lancez le serveur de développement avec `yarn start` ou `npm start`.
 
 ## Layouts
 
