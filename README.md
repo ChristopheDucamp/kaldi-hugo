@@ -24,17 +24,17 @@ Puis lancez le serveur de développement avec `yarn start` ou `npm start`.
 
 ## Layouts
 
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
+Le template est basé sur des petits "partials" agnostiques-au-contenu qui peuvent être mélangés et combinés. Les pages pré-construites présentent quelques combinaisons possilbes. Réflérez-vous au répertoire `site/layouts/partials` pour tous les partials disponibles.
 
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
+Utilisez la fonctionnalité `dict` de Hugo pour alimenter le contenu à l'intérieur des partials et pour éviter de vous répéter et de créer des divergences.
 
 ## CSS
 
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
+Le template utilise un fork personnalisé de Tachyons et PostCSS avec cssnext et cssnano. Pour personnaliser le template pour votre marque, référez-vous à `src/css/imports/_variables.css` où sont stockées la plupart des variables globales importantes comme les couleurs et l'espacement.
 
 ## SVG
 
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+Toutes les icônes SVG stockées dans `site/static/img/icons` sont automatiquement optimisées avec SVGO (gulp-svgmin) et concaténées dans un sprite SVG unique sous forme d'un partiel appelé `svg.html`. Assurez-vous d'utiliser des icônes cohérentes en termes de viewport et de direction artistique pour des résultats optimaux. Référez vous à un SVG via la balise `<use>` comme suit :
 
 ```
 <svg width="16px" height="16px" class="db">
